@@ -1,0 +1,14 @@
+{
+  "name": "demo_7",
+  "description": "Line Bot API for demo_7",
+  "repository": "https://github.com/lanco2017/demo_7",
+  "keywords": ["Line", "go", "static"],
+  "buildpacks": [
+    {
+      "url": "https://github.com/kr/heroku-buildpack-go.git"
+    },
+    {
+      "url": "heroku/go"
+    }
+  ]
+}
